@@ -136,12 +136,26 @@
 /analysis/h1/set 114 1000 0 100000    #number of electrons created in strip b 511 Detector 2
 /analysis/h1/set 115 1000 0 100000    #number of electrons created in strip b 512 Detector 2
 /analysis/h1/set 116 100 0 0.2         #deflection angle of primary particle
+/analysis/h1/setXaxis 116 "deflection angle of primary particle (rad)"
+/analysis/h1/setYaxis 116 "number of entries per bin"
 /analysis/h1/set 117 100 0 500 um     #distance between midpoint of primary inside Detector 1 and AD
+/analysis/h1/setXaxis 117 "distance between midpoint of primary inside Detector 1 and AD (um)"
+/analysis/h1/setYaxis 117 "number of entries per bin"
 /analysis/h1/set 118 100 0 500 um     #distance between midpoint of primary inside Detector 2 and AD
+/analysis/h1/setXaxis 118 "distance between midpoint of primary inside Detector 2 and AD (um)"
+/analysis/h1/setYaxis 118 "number of entries per bin"
 /analysis/h1/set 119 100 -500 500 um    #2S first-plane residuals in x-direction
+/analysis/h1/setXaxis 119 "2S first-plane residuals in x-direction (um)"
+/analysis/h1/setYaxis 119 "number of entries per bin"
 /analysis/h1/set 120 100 -500 500 um    #2S first-plane residuals in y-direction
+/analysis/h1/setXaxis 120 "2S first-plane residuals in y-direction (um)"
+/analysis/h1/setYaxis 120 "number of entries per bin"
 /analysis/h1/set 121 100 -500 500 um    #2S second-plane residuals in x-direction
+/analysis/h1/setXaxis 121 "2S second-plane residuals in x-direction (um)"
+/analysis/h1/setYaxis 121 "number of entries per bin"
 /analysis/h1/set 122 100 -500 500 um    #2S second-plane residuals in y-direction
+/analysis/h1/setXaxis 122 "2S second-plane residuals in y-direction (um)"
+/analysis/h1/setYaxis 122 "number of entries per bin"
 
 #/analysis/h3/setY 85 10000 -2 2 cm 
 #/analysis/h3/set 85 10000 -2 2 cm    #midpoint of primary particle inside Pixel Detector 1
